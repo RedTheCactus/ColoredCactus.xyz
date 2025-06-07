@@ -1,0 +1,197 @@
+
+.bakbak-one-regular {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body header#nav a img {
+    width: 12vh;
+    margin-top: 2vh;
+    margin-left: 8px;
+    float: left;
+}
+
+header#nav {
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #bf0000;
+    border-bottom: 0.414vw solid black;
+    box-shadow: 0em -0.52vw 1.56vw black;
+    height: 11vh;
+}
+
+body header#nav ul#navbar li {
+    color: white;
+    font-size: 2vw;
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    float: left;
+    list-style-type: none;
+    background-color: red;
+    border: 0.3125vw solid black;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: -4.1vh;
+    padding-top: 1vh;
+    margin-top: 1vh;
+    margin-bottom: -10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    display: flex;
+    user-select: none;
+    height: 6.25vh;
+}
+
+body header#nav ul li#current {
+    border: 0.3125vw solid white;
+}
+
+body header#nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+body header#nav ul li#hoverable:hover {
+    border: 0.3125vw solid gray;
+}
+
+body header#nav ul li#hoverable:active {
+    border: 0.3125vw solid white;
+    color: white;
+}
+
+body header#nav ul {
+    text-align: middle;
+    margin-top: -8px;
+    padding-bottom: 84px;
+    display: flex;
+}
+
+ul#flags {
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+}
+
+ul#flags li#EN img {
+    width: 6vw;
+    float: right;
+    margin-right: 0.4167vw;
+    border: 0.315vw solid black;
+    margin-top: -4.3vw;
+}
+
+ul#flags li#ES img {
+    width: 6vw;
+    float: right;
+    margin-right: 0.4167vw;
+    border: 0.315vw solid black;
+    margin-top: -4.3vw;
+}
+
+ul#flags li#EN img:active {
+    border: 6px solid white;
+}
+
+ul#flags li#ES img:active {
+    border: 6px solid white;
+}
+
+ul#flags li#EN img:hover {
+    border: 6px solid gray;
+}
+
+ul#flags li#ES img:hover {
+    border: 6px solid gray;
+}
+
+hr {
+    display: block;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-color: black;
+    margin-top: -1em;
+}
+
+ul#navbar {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    display: flex;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+div#frontlogo img {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    resize: both;
+    overflow: auto;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1a1a1a;
+    background-position: center;
+}
+
+body header#nav ul li {
+    flex: 1 1 0;
+}
+
+div#GameLogo img {
+    margin-left: 32vw;
+    margin-right: 32vw;
+    text-align: center;
+    resize: both;
+    width: 35vw;
+}
+
+h2 {
+    color: #aa00ff;
+    text-align: center;
+    font-size: 2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 100;
+}
+
+p {
+    color: black;
+    border: 0.25vw solid black;
+    text-align: center;
+    font-size: 1vw;
+    background-color: white;
+    padding-top: 0.35vw;
+    padding-bottom: 0.35vw;
+    margin-left: 44vw;
+    margin-right: 44vw;
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 100;
+    margin-top: -1vw;
+    box-shadow: 0 0 0.5vw #8000ff;
+    user-select: none;
+    text-decoration: none;
+}
+
+p:hover {
+    border-color: gray;
+    text-decoration: none;
+}
+
+p:active {
+    border-color: white;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
