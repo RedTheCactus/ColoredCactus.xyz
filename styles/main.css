@@ -1,0 +1,284 @@
+
+.bakbak-one-regular {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body header#nav a img {
+    width: 12vh;
+    margin-top: 2vh;
+    margin-left: 8px;
+    float: left;
+}
+
+header#nav {
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #bf0000;
+    border-bottom: 0.414vw solid black;
+    box-shadow: 0em -0.52vw 1.56vw black;
+    height: 11vh;
+}
+
+body header#nav ul#navbar li {
+    color: white;
+    font-size: 2vw;
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    float: left;
+    list-style-type: none;
+    background-color: red;
+    border: 0.3125vw solid black;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: -4.1vh;
+    padding-top: 1vh;
+    margin-top: 1vh;
+    margin-bottom: -10vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    display: flex;
+    user-select: none;
+    height: 6.25vh;
+}
+
+body header#nav ul li#current {
+    border: 0.3125vw solid white;
+}
+
+body header#nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+body header#nav ul li#hoverable:hover {
+    border: 0.3125vw solid gray;
+}
+
+body header#nav ul li#hoverable:active {
+    border: 0.3125vw solid white;
+    color: white;
+}
+
+body header#nav ul {
+    text-align: middle;
+    margin-top: -8px;
+    padding-bottom: 84px;
+    display: flex;
+}
+
+ul#flags {
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+}
+
+ul#flags li#EN img {
+    width: 6vw;
+    float: right;
+    margin-right: 0.4167vw;
+    border: 0.315vw solid black;
+    margin-top: -4.3vw;
+}
+
+ul#flags li#ES img {
+    width: 6vw;
+    float: right;
+    margin-right: 0.4167vw;
+    border: 0.315vw solid black;
+    margin-top: -4.3vw;
+}
+
+ul#flags li#EN img:active {
+    border: 6px solid white;
+}
+
+ul#flags li#ES img:active {
+    border: 6px solid white;
+}
+
+ul#flags li#EN img:hover {
+    border: 6px solid gray;
+}
+
+ul#flags li#ES img:hover {
+    border: 6px solid gray;
+}
+
+hr {
+    display: block;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-color: black;
+    margin-top: -1em;
+}
+
+ul#navbar {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    display: flex;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+div#frontlogo img {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    resize: both;
+    overflow: auto;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffdb9d;
+    background-position: center;
+}
+
+body header#nav ul li {
+    flex: 1 1 0;
+}
+
+section#merch {
+    border: 0.5vw solid black;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: red;
+    box-shadow: 0 0 0.5vw black;
+}
+
+h1 {
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 100;
+}
+
+ul {
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 100;
+}
+
+section#merch h1 {
+    text-align: center;
+    font-size: 4.5vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    color: white;
+}
+
+section#merch h2 {
+    text-align: center;
+    font-size: 3vw;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: -4vw;
+}
+
+section#contact {
+    border: 0.5vw solid black;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: red;
+    box-shadow: 0 0 0.5vw black;
+}
+
+section#contact h1 {
+    font-size: 8vw;
+    text-align: center;
+    margin-top: -1vh;
+}
+
+section#contact hr {
+    height: 0.25vw;
+    background-color: black;
+    margin-top: -6vw;
+}
+
+section#contact h2 {
+    font-size: 2.5vw;
+    text-align: center;
+    margin-left: 1vw;
+    color: white;
+}
+
+section#contact p {
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+section#contact hr#socials {
+    height: 0.125vw;
+    background-color: white;
+    border-color: white;
+    margin-top: -1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 68vw;
+}
+
+a#EmailIcon img {
+    width: 5vw;
+    margin-bottom: -1.75vw;
+    margin-right: 1vw;
+    user-select: none;
+}
+
+a#PhoneIcon img {
+    width: 5vw;
+    margin-bottom: -1.75vw;
+    margin-right: 1vw;
+    user-select: none;
+}
+
+section#about {
+    border: 0.5vw solid black;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    margin-top: 4vh;
+    margin-bottom: 10vh;
+    background-color: red;
+    box-shadow: 0 0 0.5vw black;
+}
+
+section#about h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+section#about p {
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 3vw;
+    color: white;
+}
+
+section#about ul {
+    color: white;
+    margin-left: 4vw;
+    font-size: 1.5vw;
+}
